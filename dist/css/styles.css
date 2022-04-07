@@ -296,7 +296,16 @@ figure {
   margin: 0 0 1rem;
 }
 
+figcaption {
+  text-align: right;
+}
+
 img,
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 svg {
   vertical-align: middle;
 }
@@ -323,6 +332,11 @@ tbody,
 tfoot,
 tr,
 td,
+td, th {
+  border:1px solid #999;
+  padding: 0.5rem;
+  text-align:center;
+}
 th {
   border-color: inherit;
   border-style: solid;
