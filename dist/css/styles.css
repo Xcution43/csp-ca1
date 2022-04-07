@@ -60,7 +60,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #2e2d2d;
+  --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
 
@@ -283,7 +283,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
-  background-color: #292121;
+  background-color: #212529;
   border-radius: 0.2rem;
 }
 kbd kbd {
@@ -296,16 +296,13 @@ figure {
   margin: 0 0 1rem;
 }
 
-figcaption {
-  text-align: right;
-}
-
 img,
 
 img {
   max-width: 100%;
   max-height: 100%;
 }
+
 svg {
   vertical-align: middle;
 }
@@ -322,6 +319,11 @@ caption {
   text-align: left;
 }
 
+figcaption {
+  text-align: right;
+}
+
+
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
@@ -332,11 +334,13 @@ tbody,
 tfoot,
 tr,
 td,
-td, th {
+td, th{
   border:1px solid #999;
   padding: 0.5rem;
-  text-align:center;
+  text-align: center;
+  color: white;
 }
+
 th {
   border-color: inherit;
   border-style: solid;
